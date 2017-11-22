@@ -1,5 +1,7 @@
 # vue-cli-mpa-template
 基于Vue-Cli的多入口模板
+调试模式不支持IE11以下浏览器，请自行配置webpack-dev-server到2.7.1
+Node.js版本需求：7.x及以上
 
 ## Build Setup
 
