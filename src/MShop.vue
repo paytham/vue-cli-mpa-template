@@ -1,3 +1,4 @@
+<!-- 移动端商城 -->
 <template>
   <div id="qinban-mshop">
     <router-view></router-view>
