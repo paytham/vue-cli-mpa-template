@@ -1,6 +1,7 @@
-# iqb-shop
-
-> qinban shop
+# vue-cli-mpa-template
+基于Vue-Cli构建的多入口页面模板<br>
+调试不支持IE浏览器（IE11除外），请自行将webpack-dev-server版本锁定到2.7.1<br>
+Node版本需求：Node.js 7+
 
 ## Build Setup
 
