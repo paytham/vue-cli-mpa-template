@@ -1,12 +1,11 @@
-# iqb-shop
-
-> qinban shop
+# vue-cli-mpa-template
+基于Vue-Cli的多入口模板
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+cnpm i
 
 # serve with hot reload at localhost:8080
 npm run dev
