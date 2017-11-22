@@ -9,7 +9,7 @@ Node.js版本需求：7.x及以上
 # install dependencies
 cnpm i
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8083
 npm run dev
 
 # build for production with minification
