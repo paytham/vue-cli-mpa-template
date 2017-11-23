@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import MShop from './MShop.vue'
+import App from './App.vue'
 import router from '@/router/mshop'
 import store from '@/store'
 import { sync } from 'vuex-router-sync'
@@ -13,6 +13,6 @@ new Vue({
   el: '#qinban-mshop',
   router,
   store,
-  template: '<MShop/>',
-  components: { MShop }
+  template: '<App />',
+  components: { App }
 })

@@ -11,8 +11,8 @@ function resolve (dir) {
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    shop: ['es6-promise', './src/shop.js'],
-    mshop: ['es6-promise', './src/mshop.js']
+    shop: ['es6-promise', './src/_entry/shop/main.js'],
+    mshop: ['es6-promise', './src/_entry/mshop/main.js']
   },
   output: {
     path: config.build.assetsRoot,
@@ -26,6 +26,10 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      // 快速标记
+      'M1': resolve('src/_entry/shop'),
+      // 快速标记
+      'M2': resolve('src/_entry/mshop')
     }
   },
   module: {

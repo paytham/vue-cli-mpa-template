@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // views
-import Home from '@/views/mobile/Home'
+import Home from '@/views/mshop/Home'
 
 Vue.use(Router)
 

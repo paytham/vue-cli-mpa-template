@@ -13,7 +13,9 @@ export default new Vuex.Store({
   getters,
   mutations,
   state: {
-    appVersion: '2.0'
+    appVersion: '2.0',
+    serverUrl: 'http://www.iqinban.com',
+    apiUrl: 'http://www.iqinban.com/iqb/'
   },
   strict: debug
 })

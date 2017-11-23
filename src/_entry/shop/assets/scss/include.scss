@@ -1,0 +1,35 @@
+// 变量定义
+$header-height: 80px;
+$header-padding: 120px;
+$header-content-height: 40px;
+$header-logo-width: 40px;
+$header-li-padding: 20px;
+
+$header-fontsize: 20px;
+$header-li-fontsize: 14px;
+
+$color-071524: #071524;
+$color-45505b: #45505b;
+
+// 基础样式
+a {
+  text-decoration: none;
+}
+
+.absolute-layout {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+
+.i-page {
+  padding-top: $header-height;
+}

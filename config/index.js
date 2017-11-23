@@ -49,7 +49,7 @@ module.exports = {
   },
 
   build: {
-    // Template for mshop.html
+    // Template for index.html
     shop: path.resolve(__dirname, '../dist/shop/index.html'),
     mshop: path.resolve(__dirname, '../dist/mshop/index.html'),
 

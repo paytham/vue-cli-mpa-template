@@ -1,0 +1,33 @@
+.i-header {
+  height: $header-height;
+  @extend .absolute-layout;
+  &__inner {
+    padding: 0 $header-padding;
+  }
+  &__logo {
+    line-height: $header-content-height;
+    padding-top: ($header-height - $header-content-height) / 2;
+    > img {
+      width: $header-logo-width;
+    }
+    > span {
+      font-size: $header-fontsize;
+      color: $color-071524;
+    }
+  }
+  ul {
+    margin-top: ($header-height - $header-content-height) / 2;
+    float: right;
+    li {
+      float: left;
+      list-style: none;
+    }
+    a {
+      display: block;
+      line-height: $header-content-height;
+      padding: 0 $header-li-padding;
+      color: $color-45505b;
+      font-size: $header-li-fontsize;
+    }
+  }
+}
